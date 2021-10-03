@@ -1,0 +1,1 @@
+require("dotenv").config({path:"../.env"});const list=process.env.LIST_VAR.split(", "),name=process.env.NAME_APPLICATION;console.log(list),console.log(name);
